@@ -8,3 +8,8 @@ body {
     background-color: #FFFFFF;
     color: var(--primary-text-color);
 }
+
+.filter-button {
+    background-color: #F5F4FA;
+    color: #212121;
+}
