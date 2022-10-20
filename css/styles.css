@@ -7,9 +7,22 @@
 body {
     background-color: #FFFFFF;
     color: var(--primary-text-color);
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.link {
+    list-style: none;
+    text-decoration: none;
 }
 
 .filter-button {
     background-color: #F5F4FA;
     color: #212121;
+    font-family: inherit;
 }
