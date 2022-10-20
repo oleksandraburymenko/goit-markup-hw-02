@@ -1,7 +1,9 @@
 .root {
     --primary-text-color: #757575;
     --title-text-color: #000000;
+    --secondary-text-color: #212121;
     --accent-color: #2196F3;
+    --white-text-color: #FFFFFF;
 }
 
 body {
@@ -12,17 +14,229 @@ body {
 
 }
 
-.logo {
+header .logo {
+    background-color: var(--white-text-color);
+    color: var(--title-text-color);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+}
+
+span {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.nav-list {
+    list-style: none;
+}
+
+.nav-list .link {
+    color: #212121;
+    font-family: Roboto;
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: var(--accent-color);
+}
+
+.nav-list .link.current {
+    color: var(--accent-color);
+}
+
+
+.email, .telephone {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
     text-decoration: none;
 }
 
-.link {
+.email:hover,
+.email:focus {
+    color: var(--accent-color);
+}
+
+.telephone:hover,
+.telephone:focus {
+    color: var(--accent-color);
+}
+
+.hero {
+    background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--white-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+}
+
+.hero-button {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    
+}
+
+.benefits-list, .activity-list, .team-list, .address-list, .filter-list, .examples-list {
     list-style: none;
+}
+
+.benefits-title {
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--secondary-text-color);
+}
+
+.benefits-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--primary-text-color);
+}
+
+.activity-title, .team-title {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+
+}
+
+.team {
+    background-color: #F5F4FA;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+footer {
+    background-color: #2F303A;
+}
+
+footer .logo {
+    color: var(--white-text-color);
     text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    
+}
+
+.address-list .map-address {
+    text-decoration: none;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--white-text-color);
+}
+
+.address-list .email, .address-list .telephone {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .filter-button {
     background-color: #F5F4FA;
-    color: #212121;
+    color: var(--secondary-text-color);
     font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
 }
+
+.filter-button:hover,
+.filter-button:focus {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+}
+
+.examples-list a {
+    text-decoration: none;
+}
+
+.title-examples {
+    color: var(--secondary-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    
+}
+
+.text-examples {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    
+}
+
+
+
+
+
+
