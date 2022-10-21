@@ -51,7 +51,7 @@ span {
 }
 
 .nav-list .link {
-    color: #212121;
+    color: var(--secondary-text-color);
     font-family: Roboto;
     font-style: normal;
     text-decoration: none;
@@ -93,7 +93,7 @@ span {
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--footer-background-color);
 }
 
 .hero-title {
@@ -167,7 +167,7 @@ span {
 }
 
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--secondary-background-color);
 }
 
 .name {
@@ -187,7 +187,7 @@ span {
 }
 
 footer {
-    background-color: #2F303A;
+    background-color: var(--footer-background-color);
 }
 
 footer .logo {
@@ -212,6 +212,11 @@ footer .logo {
     color: var(--white-text-color);
 }
 
+.address-list .map-address:hover,
+.address-list .map-address:focus {
+    color: var(--accent-color);
+}
+
 .address-list .email, .address-list .telephone {
     font-family: Roboto;
     font-style: normal;
@@ -219,11 +224,22 @@ footer .logo {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--footer-text-color);
 }
 
+.address-list .email:hover,
+.address-list .email:focus {
+    color: var(--accent-color);
+}
+
+.address-list .telephone:hover,
+.address-list .telephone:focus {
+    color: var(--accent-color);
+}
+
+
 .filter-button {
-    background-color: #F5F4FA;
+    background-color: var(--secondary-background-color);
     color: var(--secondary-text-color);
     font-family: inherit;
     font-weight: 500;
