@@ -1,9 +1,15 @@
-.root {
+:root {
     --primary-text-color: #757575;
     --title-text-color: #000000;
     --secondary-text-color: #212121;
     --accent-color: #2196F3;
     --white-text-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --secondary-accent-color: #188CE8;
+    --footer-background-color: #2F303A;
+    --filter-button-color: #F5F4FA;
+    --portfolio-examples-color: #EEEEEE;
+    
 }
 
 body {
