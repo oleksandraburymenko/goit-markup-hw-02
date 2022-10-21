@@ -9,13 +9,15 @@
     --footer-background-color: #2F303A;
     --filter-button-color: #F5F4FA;
     --portfolio-examples-color: #EEEEEE;
-    
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+
 }
 
 body {
-    background-color: #FFFFFF;
+    background-color: var(--white-text-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    font-size: 14px;
     letter-spacing: 0.03em;
 
 }
@@ -54,7 +56,6 @@ span {
     font-style: normal;
     text-decoration: none;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 
@@ -102,6 +103,7 @@ span {
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
     
 }
 
@@ -117,24 +119,40 @@ span {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
     
+}
+
+.hero-button:active {
+    background-color: var(--secondary-accent-color);
 }
 
 .benefits-list, .activity-list, .team-list, .address-list, .filter-list, .examples-list {
     list-style: none;
 }
 
+.visually-hidden {
+    position: absolute;
+     white-space: nowrap;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     border: 0;
+     padding: 0;
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     margin: -1px;
+   }
+
 .benefits-title {
     
     font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
     color: var(--secondary-text-color);
 }
 
 .benefits-text {
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.7;
     color: var(--primary-text-color);
 }
