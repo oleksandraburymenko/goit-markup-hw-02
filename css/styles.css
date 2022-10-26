@@ -66,6 +66,12 @@ span {
 
 .nav-list {
     list-style: none;
+    display: flex;
+}
+
+
+.nav-list li:not(:last-child) {
+    margin-right: 50px;
 }
 
 .nav-list .link {
@@ -76,6 +82,7 @@ span {
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    
 
 }
 
