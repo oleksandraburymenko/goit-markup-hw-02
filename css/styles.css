@@ -13,6 +13,12 @@
 
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 body {
     background-color: var(--white-text-color);
     color: var(--primary-text-color);
@@ -120,6 +126,8 @@ span {
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
+    margin-top: 0;
+    margin-bottom: 30px;
     
 }
 
