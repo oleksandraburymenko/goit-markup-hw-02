@@ -36,11 +36,16 @@ body {
 
 header {
     padding-bottom: 25px;
+    padding-top: 24px;
+}
+
+.nav-main {
+    display: flex;
+    align-items: center;
 }
 
 header .logo {
     display: inline-block;
-    margin-top: 24px;
     background-color: var(--white-text-color);
     color: var(--title-text-color);
     text-decoration: none;
@@ -67,14 +72,17 @@ span {
 .nav-list {
     list-style: none;
     display: flex;
+    margin: 0 344px 0 93px;
 }
 
 
 .nav-list li:not(:last-child) {
     margin-right: 50px;
+    
 }
 
 .nav-list .link {
+    display: block;
     color: var(--secondary-text-color);
     font-family: Roboto;
     font-style: normal;
@@ -95,8 +103,13 @@ span {
     color: var(--accent-color);
 }
 
+.email {
+    margin-right: 50px;
+}
+
 
 .email, .telephone {
+    display: inline-block;
     font-family: Roboto, sans-serif;
     font-style: normal;
     font-weight: 500;
