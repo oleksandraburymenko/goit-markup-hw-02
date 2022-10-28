@@ -42,6 +42,8 @@ header {
 .nav-main {
     display: flex;
     align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 header .logo {
@@ -72,7 +74,7 @@ span {
 .nav-list {
     list-style: none;
     display: flex;
-    margin: 0 344px 0 93px;
+    margin-left: 93px;
 }
 
 
@@ -103,6 +105,10 @@ span {
     color: var(--accent-color);
 }
 
+.contact-links {
+    margin-left: auto;
+}
+
 .email {
     margin-right: 50px;
 }
@@ -118,6 +124,7 @@ span {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none;
+
 }
 
 .email:hover,
