@@ -211,6 +211,23 @@ span {
     padding-bottom: 94px;
 }
 
+.benefits-section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.benefits-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.benefits-item {
+    width: 270px;
+}
+
 .benefits-title {
     
     font-weight: 700;
