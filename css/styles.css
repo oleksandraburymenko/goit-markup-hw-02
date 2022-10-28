@@ -282,6 +282,28 @@ span {
     padding: 94px 215px;
 }
 
+.team-section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.team-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.team-item {
+    width: 270px;
+}
+
 .name {
     font-weight: 500;
     font-size: 16px;
