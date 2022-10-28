@@ -255,6 +255,12 @@ span {
     padding-bottom: 94px;
 }
 
+.activity-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+
+}
+
 .team {
     background-color: var(--secondary-background-color);
     padding: 94px 215px;
