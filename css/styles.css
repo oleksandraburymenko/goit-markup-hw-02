@@ -255,10 +255,23 @@ span {
     padding-bottom: 94px;
 }
 
+.activity-section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .activity-title {
     margin-top: 0;
     margin-bottom: 50px;
 
+}
+
+.activity-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
 }
 
 .team {
