@@ -392,6 +392,7 @@ footer .logo {
 .examples {
     padding-top: 94px;
     padding-bottom: 94px;
+    border: 1px solid #EEEEEE;
 }
 
 .examples-section {
