@@ -348,6 +348,7 @@ footer .logo {
 }
 
 .address-list .map-address {
+    display: inline-block;
     margin-bottom: 9px;
     text-decoration: none;
     font-family: Roboto, sans-serif;
