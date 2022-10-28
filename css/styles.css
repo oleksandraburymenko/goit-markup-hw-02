@@ -137,6 +137,11 @@ span {
     color: var(--accent-color);
 }
 
+.main-section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
 .hero {
     background-color: var(--footer-background-color);
     padding-bottom: 200px;
