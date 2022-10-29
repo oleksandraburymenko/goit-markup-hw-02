@@ -203,13 +203,13 @@ span {
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    margin-top: 0;
-    margin-bottom: 30px;
+    margin: 0 auto 30px auto;
+    width: 696px;
     
 }
 
 .hero-button {
-    margin: auto;
+    margin: 0 auto;
     display: block;
     background-color: var(--accent-color);
     color: var(--white-text-color);
