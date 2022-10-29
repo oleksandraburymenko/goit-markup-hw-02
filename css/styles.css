@@ -479,6 +479,7 @@ footer .logo {
     cursor: pointer;
     border-radius: 4px;
     border: 1px solid transparent;
+    padding: 6px 22px;
 }
 
 .filter-button:hover,
@@ -513,6 +514,10 @@ footer .logo {
 
 .examples-list a {
     text-decoration: none;
+}
+
+.examples-list div {
+    margin: 20px 24px;
 }
 
 .title-examples {
