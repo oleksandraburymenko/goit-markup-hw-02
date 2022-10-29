@@ -265,7 +265,7 @@ span {
 .benefits-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
     padding: 0;
     margin: 0;
 }
@@ -318,7 +318,7 @@ span {
 .activity-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
     margin: 0;
     padding: 0;
 }
