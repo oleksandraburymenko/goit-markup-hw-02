@@ -79,8 +79,8 @@ section {
 }
 
 header {
-    padding-bottom: 25px;
-    padding-top: 24px;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .nav-main {
@@ -92,6 +92,7 @@ header {
 
 header .logo {
     display: inline-block;
+    padding-right: 93px;
     background-color: var(--white-text-color);
     color: var(--title-text-color);
     text-decoration: none;
@@ -118,7 +119,8 @@ span {
 .nav-list {
     list-style: none;
     display: flex;
-    margin-left: 93px;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -129,6 +131,7 @@ span {
 
 .nav-list .link {
     display: block;
+    padding: 32px 0;
     color: var(--secondary-text-color);
     font-family: Roboto;
     font-style: normal;
