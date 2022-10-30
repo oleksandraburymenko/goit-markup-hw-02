@@ -92,7 +92,7 @@ header {
 
 header .logo {
     display: inline-block;
-    padding-right: 93px;
+    margin-right: 93px;
     background-color: var(--white-text-color);
     color: var(--title-text-color);
     text-decoration: none;
@@ -478,7 +478,7 @@ footer .logo {
     text-align: center;
     cursor: pointer;
     border-radius: 4px;
-    border: 1px solid transparent;
+    border: none;
     padding: 6px 22px;
 }
 
@@ -500,8 +500,6 @@ footer .logo {
     width: 370px;
     margin-right: 30px;
     margin-bottom: 30px;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
 }
 
 .examples-list li:nth-child(3n) {
@@ -517,7 +515,8 @@ footer .logo {
 }
 
 .examples-list div {
-    margin: 20px 24px;
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
 }
 
 .title-examples {
