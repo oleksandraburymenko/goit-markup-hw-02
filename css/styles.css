@@ -193,6 +193,7 @@ span {
     background-color: var(--footer-background-color);
     padding-bottom: 200px;
     padding-top: 200px;
+    background-image: url(../images/hero-image.jpg);
 }
 
 .hero-title {
