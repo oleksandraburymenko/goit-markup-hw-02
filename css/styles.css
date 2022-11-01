@@ -185,7 +185,8 @@ span {
 }
 
 header .email::before {
-    display: block;
+    display: inline-block;
+    align-items: flex-end;
     content: "";
     width: 16px;
     height: 12px;
@@ -195,7 +196,8 @@ header .email::before {
 }
 
 header .telephone::before {
-    display: block;
+    display: inline-block;
+    align-items: flex-end;
     content: "";
     width: 10px;
     height: 16px;
@@ -302,6 +304,35 @@ header .telephone::before {
 
 .benefits-item {
     width: 270px;
+}
+
+.benefits-item::before {
+    display: block;
+    content: "";
+    height: 80px;
+    margin-bottom: 30px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.antenna::before {
+    background-image: url(../images/antenna\ 1.svg);
+
+}
+
+.clock::before {
+    background-image: url(../images/clock\ 1.svg);
+}
+
+.diagram::before {
+    background-image: url(../images/diagram\ 1.svg);
+}
+
+.astronaut::before {
+    background-image: url(../images/astronaut\ 1.svg);
 }
 
 .benefits-title {
