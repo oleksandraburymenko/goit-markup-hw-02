@@ -318,20 +318,20 @@ header .telephone::before {
 
 }
 
-.antenna::before {
+.icon-antenna::before {
     background-image: url(../images/antenna\ 1.svg);
 
 }
 
-.clock::before {
+.icon-clock::before {
     background-image: url(../images/clock\ 1.svg);
 }
 
-.diagram::before {
+.icon-diagram::before {
     background-image: url(../images/diagram\ 1.svg);
 }
 
-.astronaut::before {
+.icon-astronaut::before {
     background-image: url(../images/astronaut\ 1.svg);
 }
 
