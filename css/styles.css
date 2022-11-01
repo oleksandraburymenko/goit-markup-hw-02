@@ -311,7 +311,7 @@ header .telephone::before {
     content: "";
     height: 80px;
     margin-bottom: 30px;
-    
+    background-color: var(--filter-button-color);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
