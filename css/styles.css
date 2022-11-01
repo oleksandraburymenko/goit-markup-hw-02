@@ -184,6 +184,25 @@ span {
     color: var(--accent-color);
 }
 
+header .email::before {
+    display: block;
+    content: "";
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url(../images/email.svg);
+    
+}
+
+header .telephone::before {
+    display: block;
+    content: "";
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url(../images/smartphone.svg)
+}
+
 .main-section {
     padding-left: 15px;
     padding-right: 15px;
