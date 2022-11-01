@@ -309,7 +309,7 @@ header .telephone::before {
 .benefits-item::before {
     display: block;
     content: "";
-    height: 80px;
+    height: 120px;
     margin-bottom: 30px;
     background-color: var(--filter-button-color);
     background-size: contain;
