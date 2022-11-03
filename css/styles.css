@@ -189,11 +189,7 @@ span {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    fill: var(--primary-text-color);
-}
-
-.envelope:hover {
-    fill: var(--accent-color);
+    fill: currentColor;
 }
 
 .smartphone {
@@ -201,12 +197,7 @@ span {
     width: 10px;
     height: 16px;
     margin-right: 10px;
-    fill: var(--primary-text-color);
-}
-
-.smartphone:hover {
-    fill: var(--accent-color);
-
+    fill: currentColor;
 }
 
 .main-section {
@@ -421,6 +412,47 @@ span {
 .team-item div {
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.social-media-list {
+    display: flex;
+    list-style: none;
+    margin: 16px 32px 30px 32px;
+    padding: 0;
+
+}
+
+.social-media-list li {
+
+}
+
+.instagram-link,
+.twitter-link {
+    display:inline-block;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color: var(--white-text-color);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+.instagram-link:hover
+.twitter-link:hover {
+    color: var(--accent-color);
+}
+
+.instagram,
+.twitter {
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+}
+
+.instagram:hover,
+.twitter:hover {
+    fill: var(--white-text-color)
 }
 
 .name {
