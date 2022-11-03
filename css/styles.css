@@ -191,6 +191,10 @@ span {
     fill: var(--primary-text-color);
 }
 
+.envelope:hover {
+    fill: var(--accent-color);
+}
+
 .main-section {
     padding-left: 15px;
     padding-right: 15px;
