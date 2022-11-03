@@ -347,7 +347,7 @@ span {
     margin: 0;
 }
 
-.activity-title, .team-title {
+.activity-title, .team-title, .clients-title {
     color: var(--secondary-text-color);
     font-weight: 700;
     font-size: 36px;
@@ -422,37 +422,52 @@ span {
 
 }
 
-.social-media-list li {
-
+.social-media-list li:not(:last-child) {
+    margin-right: 10px;
+    
 }
 
 .instagram-link,
-.twitter-link {
+.twitter-link,
+.facebook-link,
+.linkedin-link {
     display:inline-block;
     text-decoration: none;
     padding: 0;
     margin: 0;
-    color: var(--white-text-color);
+    background-color: var(--white-text-color);
     border-radius: 50%;
     width: 44px;
     height: 44px;
 }
 
-.instagram-link:hover
-.twitter-link:hover {
-    color: var(--accent-color);
+.instagram-link:hover,
+.twitter-link:hover,
+.facebook-link:hover,
+.linkedin-link:hover {
+    background-color: var(--accent-color);
 }
 
 .instagram,
-.twitter {
+.twitter,
+.facebook,
+.linkedin {
+    display: inline-flex;
+    background-position: 50%;
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
 }
 
 .instagram:hover,
-.twitter:hover {
+.twitter:hover,
+.facebook:hover,
+.linkedin:hover {
     fill: var(--white-text-color)
+}
+
+.clients-title {
+    margin-bottom: 50px;
 }
 
 .name {
