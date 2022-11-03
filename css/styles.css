@@ -184,25 +184,11 @@ span {
     color: var(--accent-color);
 }
 
-header .email::before {
-    display: inline-block;
-    align-items: flex-end;
-    content: "";
+.envelope {
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    background-image: url(../images/email.svg);
-    
-}
-
-header .telephone::before {
-    display: inline-block;
-    align-items: flex-end;
-    content: "";
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-    background-image: url(../images/smartphone.svg)
+    fill: var(--primary-text-color);
 }
 
 .main-section {
