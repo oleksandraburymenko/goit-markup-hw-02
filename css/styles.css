@@ -185,6 +185,7 @@ span {
 }
 
 .envelope {
+    align-items: flex-end;
     width: 16px;
     height: 12px;
     margin-right: 10px;
@@ -193,6 +194,19 @@ span {
 
 .envelope:hover {
     fill: var(--accent-color);
+}
+
+.smartphone {
+    align-items: flex-end;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: var(--primary-text-color);
+}
+
+.smartphone:hover {
+    fill: var(--accent-color);
+
 }
 
 .main-section {
