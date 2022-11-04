@@ -632,6 +632,41 @@ footer .logo {
     
 }
 
+footer .instagram-link,
+.twitter-link,
+.facebook-link,
+.linkedin-link {
+    display:inline-block;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+
+footer .instagram,
+.twitter,
+.facebook,
+.linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
+    background-position: 50%;
+    width: 20px;
+    height: 20px;
+    fill:var(--white-text-color);
+}
+
+.contacts {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
 .examples {
     padding-top: 94px;
     padding-bottom: 94px;
