@@ -153,6 +153,8 @@ span {
 }
 
 .contact-links {
+    display: flex;
+    align-items: center;
     margin-left: auto;
 }
 
@@ -185,7 +187,6 @@ span {
 }
 
 .envelope {
-    align-items: flex-end;
     width: 16px;
     height: 12px;
     margin-right: 10px;
@@ -216,10 +217,11 @@ span {
     ), 
     url(../images/hero-image.jpg);
     max-width: 1600px;
-    min-height: 600px;
+    height: 600px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
 }
 
 .hero-title {
