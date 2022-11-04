@@ -309,9 +309,10 @@ span {
     height: 120px;
     margin-bottom: 30px;
     background-color: var(--filter-button-color);
-    background-size: contain;
+    background-size: 70px 70px;
     background-repeat: no-repeat;
     background-position: center;
+    border-radius: 4px;
 
 }
 
