@@ -449,29 +449,18 @@ span {
 .facebook-link:hover,
 .linkedin-link:hover {
     background-color: var(--accent-color);
+    color: var(--white-text-color);
 }
 
 .instagram,
 .twitter,
 .facebook,
 .linkedin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 10px;
-    background-position: 50%;
     width: 20px;
     height: 20px;
-    fill: #AFB1B8;
+    fill: currentColor;
 }
 
-.instagram:hover,
-.twitter:hover,
-.facebook:hover,
-.linkedin:hover {
-    fill: var(--white-text-color)
-}
 
 .clients-title {
     margin-bottom: 50px;
@@ -496,50 +485,23 @@ span {
 
 
 .clients-list a {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 100%;
     height: 100%;
-    border: 1px solid #AFB1B8;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    color: #AFB1B8;
 }
 
 .clients-list a:hover {
-    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
 }
 
 .clients-list svg {
     fill: currentColor;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 23px;
-}
 
-.clients-list svg:hover {
-    fill: var(--accent-color)
-}
-
-.group {
-    margin-left: 64px;
-}
-
-.group2 {
-    margin-left: 65px;
-}
-
-.group3 {
-    margin-left: 62px;
-}
-
-.group4 {
-    margin-left: 43px;
-}
-
-.group5 {
-    margin-left: 54px;
-}
-
-.group6 {
-    margin-left: 38px;
 }
 
 
