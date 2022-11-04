@@ -452,7 +452,11 @@ span {
 .twitter,
 .facebook,
 .linkedin {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
     background-position: 50%;
     width: 20px;
     height: 20px;
