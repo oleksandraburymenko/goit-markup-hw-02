@@ -452,6 +452,15 @@ span {
     color: var(--white-text-color);
 }
 
+.instagram-link:focus,
+.twitter-link:focus,
+.facebook-link:focus,
+.linkedin-link:focus {
+    background-color: var(--accent-color);
+    color: var(--white-text-color);
+
+}
+
 .instagram,
 .twitter,
 .facebook,
@@ -595,12 +604,13 @@ footer .logo {
 
 footer .container {
     display: flex;
+    align-items: baseline;
 }
 
 .social-links {
-    display: inline-block;
+    
     margin-left: 70px;
-    margin-top: 12px;
+    
 }
 
 .social-links-text {
@@ -614,10 +624,12 @@ footer .container {
 }
 
 footer .instagram-link,
-.twitter-link,
-.facebook-link,
-.linkedin-link {
-    display:inline-block;
+footer .twitter-link,
+footer .facebook-link,
+footer .linkedin-link {
+    display:flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     padding: 0;
     margin: 0;
@@ -631,14 +643,6 @@ footer .instagram,
 footer .twitter,
 footer .facebook,
 footer .linkedin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    margin-top: 10px;
-    background-position: 50%;
-    width: 20px;
-    height: 20px;
     fill:var(--white-text-color);
 }
 
@@ -719,11 +723,10 @@ footer .linkedin {
 
 .examples-list a {
     text-decoration: none;
+    display: block;
 }
 
-.examples-list a:hover {
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
+.examples-list a:hover, .examples-list a:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
