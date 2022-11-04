@@ -628,8 +628,24 @@ footer .logo {
     color: var(--accent-color);
 }
 
+footer .container {
+    display: flex;
+}
+
 .social-links {
-    
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 12px;
+}
+
+.social-links-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    margin-bottom: 20px;
 }
 
 footer .instagram-link,
@@ -647,9 +663,9 @@ footer .instagram-link,
 }
 
 footer .instagram,
-.twitter,
-.facebook,
-.linkedin {
+footer .twitter,
+footer .facebook,
+footer .linkedin {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -665,6 +681,10 @@ footer .instagram,
     display: flex;
     margin: 0;
     padding: 0;
+}
+
+.contacts li:not(:last-child) {
+    margin-right: 10px;
 }
 
 .examples {
