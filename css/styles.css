@@ -164,9 +164,8 @@ span {
 
 
 .email, .telephone {
-    display: inline-block;
-    font-family: Roboto, sans-serif;
-    font-style: normal;
+    display: flex;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -438,7 +437,7 @@ span {
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--white-text-color);
+    color: #AFB1B8;
     border-radius: 50%;
     width: 44px;
     height: 44px;
