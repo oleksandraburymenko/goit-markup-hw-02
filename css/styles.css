@@ -661,6 +661,14 @@ footer .linkedin {
     margin-right: 10px;
 }
 
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 .examples {
     padding-top: 94px;
     padding-bottom: 94px;
