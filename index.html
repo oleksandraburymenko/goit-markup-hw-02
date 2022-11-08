@@ -43,7 +43,7 @@
         <section class="hero">
             <div class="container main-section">
                 <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-                <button class="hero-button" type="button">Замовити послугу</button>
+                <button class="hero-button" type="button" data-modal-open>Замовити послугу</button>
             </div>
             
         </section>
@@ -360,8 +360,10 @@
         </div>
         
     </footer>
-    <div class="backdrop is-hidden">
-        <div class="modal"></div>
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button data-modal-close></button>
+        </div>
     </div>
     
 </body>
