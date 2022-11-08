@@ -670,6 +670,11 @@ footer .linkedin {
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+.backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+}
+
 .modal {
     width: 528px;
     height: 581px;
