@@ -189,6 +189,9 @@ span {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -458,6 +461,9 @@ span {
     border-radius: 50%;
     width: 44px;
     height: 44px;
+    transition-property: color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .instagram-link:hover,
@@ -518,6 +524,9 @@ span {
     border: 1px solid currentColor;
     border-radius: 4px;
     color: #AFB1B8;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-list a:hover {
@@ -587,6 +596,9 @@ footer .logo {
     font-size: 14px;
     line-height: 1.71;
     color: var(--white-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list .map-address:hover,
