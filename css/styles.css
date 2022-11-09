@@ -169,7 +169,8 @@ span {
     background-color: var(--accent-color);
     border-radius: 2px;
     position: absolute;
-    top: 75px;
+    left: 0;
+    bottom: 0;
 }
 
 .contact-links {
