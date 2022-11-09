@@ -618,6 +618,9 @@ footer .logo {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-text-color);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-list .email:hover,
@@ -742,6 +745,9 @@ footer .linkedin {
     border-radius: 4px;
     border: none;
     padding: 6px 22px;
+    transition-property: box-shadow, color, background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .filter-button:hover,
@@ -820,6 +826,9 @@ footer .linkedin {
 .examples-list a {
     text-decoration: none;
     display: block;
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .examples-list a:hover, .examples-list a:focus {
