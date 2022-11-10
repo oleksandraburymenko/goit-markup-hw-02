@@ -87,6 +87,7 @@ header {
     padding-bottom: 0;
     padding-top: 0;
     background-color: var(--white-text-color);
+    z-index: 999;
 }
 
 .nav-main {
