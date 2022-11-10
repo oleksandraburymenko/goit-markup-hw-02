@@ -427,6 +427,7 @@ span {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-text-color);
+    background-color: rgba(47, 48, 58, 0.8);
 }
 
 .team {
