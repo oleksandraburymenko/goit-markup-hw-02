@@ -775,6 +775,7 @@ footer .linkedin {
 
 .card {
     position: relative;
+    overflow: hidden;
 }
 
 .card:hover::before {
