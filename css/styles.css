@@ -710,13 +710,14 @@ footer .linkedin {
 
 .modal {
     width: 528px;
-    height: 581px;
+    height: 565px;
     background-color: var(--white-text-color);
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 
 .examples {
     padding-top: 94px;
