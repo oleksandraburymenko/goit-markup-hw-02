@@ -413,6 +413,11 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+}
+
+.activity-item:hover .activity-text {
+    opacity: 1;
 }
 
 .activity-text {
@@ -425,9 +430,13 @@ span {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
+    text-align: center;
+    padding-top: 25px;
     text-transform: uppercase;
     color: var(--white-text-color);
     background-color: rgba(47, 48, 58, 0.8);
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team {
@@ -732,6 +741,10 @@ footer .linkedin {
     pointer-events: none;
 }
 
+.backdrop.is-hidden .modal {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
 .modal {
     width: 528px;
     height: 565px;
@@ -739,7 +752,9 @@ footer .linkedin {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
+    transition: scale 250ms cubic-bezier(0.4, 0, 0.2, 1);
+   
 }
 
 
