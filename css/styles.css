@@ -88,6 +88,7 @@ header {
     padding-top: 0;
     background-color: var(--white-text-color);
     z-index: 999;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .nav-main {
