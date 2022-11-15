@@ -807,6 +807,8 @@ footer .linkedin {
 
 .form-field input {
     padding: 12px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
 }
 
 .form-field label {
@@ -815,6 +817,9 @@ footer .linkedin {
 
 textarea {
     resize: none;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    margin-bottom: 20px;
 }
 
 
