@@ -380,19 +380,28 @@
                 </svg>
             </button>
             <p>Залиште свої дані, ми вам передзвонимо</p>
-            <form>
-                <label for="name">Ім'я</label>
-                <input type="text" name="name" id="name"/>
-                <label for="tel">Телефон</label>
-                <input type="tel" name="tel" id="tel"/>
-                <label for="mail">Пошта</label>
-                <input type="email" name="mail" id="mail"/>
-                <label for="comment">Коментар</label>
-                <textarea name="" id="comment" cols="30" rows="10"></textarea>
-                <input type="checkbox" name="policy" id="policy"/>
-                <label for="policy">Погоджуюся з розсилкою та приймаю Умови договору</label>
-
-
+            <form class="form js-speaker-form">
+                <p class="form-field">
+                    <label for="name">Ім'я</label>
+                    <input type="text" name="name" id="name"/>
+                </p>
+                <p class="form-field">
+                    <label for="tel">Телефон</label>
+                    <input type="tel" name="tel" id="tel"/>
+                </p>
+                <p class="form-field">
+                    <label for="mail">Пошта</label>
+                    <input type="email" name="mail" id="mail"/>
+                </p>
+                <p class="form-field">
+                    <label for="comment">Коментар</label>
+                    <textarea name="" id="comment" cols="30" rows="10"></textarea>
+                </p>
+                <p class="form-field">
+                    <input type="checkbox" name="policy" id="policy"/>
+                    <label for="policy">Погоджуюся з розсилкою та приймаю Умови договору</label>
+                </p>
+     
                 <button type="submit">Відправити</button>
 
             </form>
