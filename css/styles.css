@@ -721,6 +721,35 @@ footer .linkedin {
     margin-right: 10px;
 }
 
+.sign {
+    
+    margin-left: auto;
+}
+
+.sign-data {
+    display: flex;
+    align-items: center;
+}
+
+.sign-text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-text-color);
+    margin-bottom: 20px;
+}
+
+.sign-data input {
+    padding: 15px;
+    width: 358px;
+    margin-right: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+}
+
 .backdrop {
     position: fixed;
     top: 0;
