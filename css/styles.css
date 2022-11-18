@@ -823,11 +823,18 @@ textarea {
     margin-bottom: 20px;
 }
 
+input [type='checkbox'] {
+    width: 16px;
+    height: 15px;
+    margin-bottom: 30px;
+}
+
 .policy {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: var(--primary-text-color);
+    
 
 }
 
