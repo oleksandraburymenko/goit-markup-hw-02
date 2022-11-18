@@ -780,6 +780,7 @@ footer .linkedin {
 
 .form {
     width: 528px;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
@@ -820,6 +821,14 @@ textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin-bottom: 20px;
+}
+
+.policy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--primary-text-color);
+
 }
 
 
