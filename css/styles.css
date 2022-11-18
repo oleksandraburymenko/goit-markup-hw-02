@@ -902,19 +902,6 @@ footer .linkedin {
     color: var(--secondary-text-color);
 }
 
-name:hover + .person {
-    fill: var(--accent-color);
-}
-
-
-tel:hover + .field-tel {
-    fill: var(--accent-color);
-}
-
-mail:hover + .field-mail {
-    fill: var(--accent-color);
-}
-
 
 textarea {
     resize: none;
