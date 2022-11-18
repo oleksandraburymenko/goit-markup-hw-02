@@ -744,7 +744,7 @@ footer .linkedin {
 
 .modal {
     width: 528px;
-    height: 530px;
+    min-height: 581px;
     background-color: var(--white-text-color);
     position: absolute;
     top: 50%;
@@ -780,7 +780,6 @@ footer .linkedin {
 
 .form {
     width: 528px;
-    height: 800px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 40px;
@@ -817,7 +816,10 @@ footer .linkedin {
 }
 
 textarea {
-    
+    resize: none;
+    width: 448px;
+    height: 120px;
+    padding: 8px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin-bottom: 20px;
@@ -842,6 +844,28 @@ textarea {
     color: var(--primary-text-color);
     margin-left: 8px; 
 
+}
+
+form button {
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--white-text-color);
+}
+
+forn button:hover,
+form button:focus {
+    background: #188CE8;
+    
 }
 
 
