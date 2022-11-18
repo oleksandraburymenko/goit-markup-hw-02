@@ -817,7 +817,7 @@ footer .linkedin {
 }
 
 textarea {
-    resize: none;
+    
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin-bottom: 20px;
@@ -834,6 +834,7 @@ input [type='checkbox'] {
     font-size: 14px;
     line-height: 24px;
     color: var(--primary-text-color);
+    margin-left: 8px;
     
 
 }
