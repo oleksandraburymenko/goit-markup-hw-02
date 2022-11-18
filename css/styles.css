@@ -863,12 +863,12 @@ footer .linkedin {
     margin-bottom: 4px;
 }
 
-.person {
+.person, .field-tel, .field-email {
     position: absolute;
     fill: var(--secondary-text-color);
     top: 50%;
     left: 15px;
-    transform: translateY(-50%);
+    transform: translateY(-30%);
 }
 
 textarea {
