@@ -801,6 +801,7 @@ footer .linkedin {
 }
 
 .close-modal {
+    position: relative;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -820,6 +821,7 @@ footer .linkedin {
     fill: var(--title-text-color);
     width: 11px;
     height: 11px;
+    position: absolute;
 
 }
 
@@ -845,6 +847,7 @@ footer .linkedin {
 }
 
 .form-field {
+    position: relative;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -858,6 +861,14 @@ footer .linkedin {
 
 .form-field label {
     margin-bottom: 4px;
+}
+
+.person {
+    position: absolute;
+    fill: var(--secondary-text-color);
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
 }
 
 textarea {
