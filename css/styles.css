@@ -863,13 +863,58 @@ footer .linkedin {
     margin-bottom: 4px;
 }
 
-.person, .field-tel, .field-email {
+.icon-person {
     position: absolute;
-    fill: var(--secondary-text-color);
-    top: 50%;
+    top: 65%;
     left: 15px;
-    transform: translateY(-30%);
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/person-black-18dp\ 1.svg);
+    color: var(--secondary-text-color);
 }
+
+.icon-tel {
+    position: absolute;
+    top: 65%;
+    left: 15px;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/tel.svg);
+    color: var(--secondary-text-color);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.icon-mail {
+    position: absolute;
+    top: 65%;
+    left: 15px;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url(../images/email-black-18dp\ 1.svg);
+    color: var(--secondary-text-color);
+}
+
+name:hover + .person {
+    fill: var(--accent-color);
+}
+
+
+tel:hover + .field-tel {
+    fill: var(--accent-color);
+}
+
+mail:hover + .field-mail {
+    fill: var(--accent-color);
+}
+
 
 textarea {
     resize: none;
