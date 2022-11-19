@@ -863,6 +863,10 @@ footer .linkedin {
     margin-bottom: 4px;
 }
 
+.form-field:focus-within > span {
+    fill: var(--accent-color);
+}
+
 .icon-person {
     position: absolute;
     top: 65%;
