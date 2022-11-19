@@ -886,8 +886,7 @@ footer .linkedin {
     display: inline-block;
     width: 18px;
     height: 18px;
-    background-image: url(../images/person-black-18dp\ 1.svg);
-    color: var(--secondary-text-color);
+    fill: #212121;
 }
 
 .icon-tel {
