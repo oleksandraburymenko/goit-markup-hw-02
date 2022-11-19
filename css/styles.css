@@ -766,6 +766,11 @@ footer .linkedin {
     color: var(--white-text-color);
 }
 
+.icon-send {
+    fill: var(--white-text-color);
+    margin-left: 10px;
+}
+
 .backdrop {
     position: fixed;
     top: 0;
