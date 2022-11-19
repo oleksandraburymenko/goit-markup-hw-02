@@ -870,6 +870,18 @@ footer .linkedin {
     border-radius: 4px;
 }
 
+.form-field input:focus {
+    outline: unset;
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+}
+
+.form-field textarea:focus {
+    outline: unset;
+    border: 1px solid #2196F3;
+    border-radius: 4px;
+}
+
 .form-field label {
     margin-bottom: 4px;
 }
