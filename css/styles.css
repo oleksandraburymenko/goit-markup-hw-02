@@ -822,6 +822,10 @@ footer .linkedin {
     height: 30px;
 }
 
+.close-modal:hover .close-modal-button {
+    fill: var(--accent-color);
+}
+
 .close-modal-button {
     fill: var(--title-text-color);
     width: 11px;
