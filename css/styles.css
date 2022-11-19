@@ -951,9 +951,11 @@ textarea {
     justify-content: center;
 }
 
-.terms input [type='checkbox'] {
-    width: 16px;
-    height: 15px;
+.checkbox {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
 }
 
 .policy {
@@ -963,6 +965,21 @@ textarea {
     color: var(--primary-text-color);
     margin-left: 8px; 
 
+}
+
+.checkbox-icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    background-image: url(../images/policy.svg);
+    background-size: contain;
+    margin-right: 8px;
+}
+
+.checkbox:checked + .checkbox-icon {
+    background-color: var(--accent-color);
+    background-image: url(../images/icon\ check.svg);
+    background-size: contain;
 }
 
 form button {
