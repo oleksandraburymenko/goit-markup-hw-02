@@ -964,6 +964,7 @@ textarea {
     line-height: 24px;
     color: var(--primary-text-color);
     margin-left: 8px; 
+    display: inline-block;
 
 }
 
