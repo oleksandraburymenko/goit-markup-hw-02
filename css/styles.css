@@ -865,7 +865,7 @@ footer .linkedin {
 }
 
 .form-field input {
-    padding: 12px;
+    padding: 12px 12px 12px 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
 }
@@ -874,9 +874,6 @@ footer .linkedin {
     margin-bottom: 4px;
 }
 
-.form-field:focus-within > span {
-    fill: var(--accent-color);
-}
 
 .icon-person {
     position: absolute;
@@ -884,9 +881,17 @@ footer .linkedin {
     left: 15px;
     transform: translateY(-50%);
     display: inline-block;
-    width: 18px;
-    height: 18px;
-    fill: #212121;
+    fill: var(--secondary-text-color);
+}
+
+.form-field:hover .icon-person {
+    fill: var(--accent-color);
+}
+
+
+.form-field:hover input {
+    border: 1px solid #2196F3;
+    border-radius: 4px;
 }
 
 .icon-tel {
@@ -895,13 +900,11 @@ footer .linkedin {
     left: 15px;
     transform: translateY(-50%);
     display: inline-block;
-    width: 18px;
-    height: 18px;
-    background-image: url(../images/tel.svg);
-    color: var(--secondary-text-color);
-    background-repeat: no-repeat;
-    background-position: center;
-    
+    fill: var(--secondary-text-color);
+}
+
+.form-field:hover .icon-tel {
+    fill: var(--accent-color);
 }
 
 .icon-mail {
@@ -910,10 +913,12 @@ footer .linkedin {
     left: 15px;
     transform: translateY(-50%);
     display: inline-block;
-    width: 18px;
-    height: 18px;
-    background-image: url(../images/email-black-18dp\ 1.svg);
-    color: var(--secondary-text-color);
+    fill: var(--secondary-text-color);
+}
+
+.form-field:hover .icon-mail,
+.form-field:hover textarea {
+    fill: var(--accent-color);
 }
 
 
