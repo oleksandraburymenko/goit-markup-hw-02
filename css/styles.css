@@ -797,6 +797,7 @@ footer .linkedin {
     min-height: 581px;
     background-color: var(--white-text-color);
     position: absolute;
+    padding: 40px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     top: 50%;
@@ -808,15 +809,15 @@ footer .linkedin {
 }
 
 .close-modal {
-    position: relative;
+    position: absolute;
     display:flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     padding: 6px;
     margin-left: auto;
-    margin-top: 8px;
-    margin-right: 8px;
+    top: 8px;
+    right: 8px;
     background-color: var(--white-text-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
@@ -833,17 +834,6 @@ footer .linkedin {
     width: 11px;
     height: 11px;
     position: absolute;
-
-}
-
-.form {
-    width: 528px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-top: 0;
 
 }
 
