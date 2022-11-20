@@ -862,6 +862,7 @@ footer .linkedin {
     padding: 12px 12px 12px 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    height: 40px;
 }
 
 .form-field input:focus {
