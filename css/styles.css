@@ -1001,6 +1001,11 @@ textarea {
     background-repeat: no-repeat;
 }
 
+.contract {
+    color: var(--accent-color);
+    margin-left: 6px;
+}
+
 form button {
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
