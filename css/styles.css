@@ -863,6 +863,8 @@ footer .linkedin {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     height: 40px;
+    transform: border;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field input:focus {
@@ -894,6 +896,8 @@ footer .linkedin {
     transform: translateY(-50%);
     display: inline-block;
     fill: var(--secondary-text-color);
+    transform: fill;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:hover .icon-person {
@@ -913,6 +917,8 @@ footer .linkedin {
     transform: translateY(-50%);
     display: inline-block;
     fill: var(--secondary-text-color);
+    transform: fill;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:hover .icon-tel {
@@ -926,6 +932,8 @@ footer .linkedin {
     transform: translateY(-50%);
     display: inline-block;
     fill: var(--secondary-text-color);
+    transform: fill;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field:hover .icon-mail,
@@ -938,9 +946,16 @@ textarea {
     resize: none;
     width: 448px;
     height: 120px;
-    padding: 8px;
+    padding: 15px 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    transform: border;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
 }
 
 .terms {
@@ -999,7 +1014,7 @@ form button {
     color: var(--white-text-color);
 }
 
-forn button:hover,
+form button:hover,
 form button:focus {
     background: #188CE8;
     
