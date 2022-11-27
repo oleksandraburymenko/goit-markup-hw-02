@@ -1,0 +1,53 @@
+
+.activity {
+    padding-top: 0;
+}
+
+.activity__section {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.activity__title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: $secondaryTextColor;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.activity__list {
+    @extend %list;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.activity__item {
+    position: relative;
+}
+
+.activity__text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $whiteTextColor;
+    background-color: rgba(47, 48, 58, 0.8);
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .activity__item:hover & {
+        opacity: 1;
+    }
+}
