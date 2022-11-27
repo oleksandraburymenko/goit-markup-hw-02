@@ -10,7 +10,7 @@
   border-bottom: 1px solid #ECECEC;
 }
 
-.nav {
+.page-header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19,6 +19,31 @@
           align-items: center;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.page-header__logo {
+  display: inline-block;
+  margin-right: 93px;
+  background-color: #FFFFFF;
+  color: #000000;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.page-header__accent {
+  color: #2196F3;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 
 .nav__list {
