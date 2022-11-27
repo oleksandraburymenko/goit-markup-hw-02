@@ -83,6 +83,23 @@
 
 .form__textarea {
     margin-bottom: 20px;
+    resize: none;
+    width: 448px;
+    height: 120px;
+    padding: 15px 16px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    transform: border;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(117, 117, 117, 0.5);
+
+    .form__field:hover & {
+        fill: $accentColor;
+    }
 }
 
 .form__name {
@@ -97,6 +114,11 @@
         outline: unset;
         border: 1px solid #2196F3;
         border-radius: 4px; 
+    }
+
+    .form__field:hover & {
+        border: 1px solid #2196F3;
+        border-radius: 4px;
     }
 }
 
@@ -113,6 +135,11 @@
         border: 1px solid #2196F3;
         border-radius: 4px; 
     }
+
+    .form__field:hover & {
+        border: 1px solid #2196F3;
+        border-radius: 4px;
+    }
 }
 
 .form__email {
@@ -128,10 +155,136 @@
         border: 1px solid #2196F3;
         border-radius: 4px; 
     }
+
+    .form__field:hover & {
+        border: 1px solid #2196F3;
+        border-radius: 4px;
+    }
 }
 
 .form-comment:focus {
     outline: unset;
     border: 1px solid #2196F3;
     border-radius: 4px;
+}
+
+.form__label {
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.01em;
+    color: $primaryTextColor;
+}
+
+.form__person {
+    position: absolute;
+    top: 65%;
+    left: 15px;
+    transform: translateY(-50%);
+    display: inline-block;
+    fill: $secondaryTextColor;
+    transform: fill;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .form__field:hover & {
+        fill: $accentColor;
+    }
+}
+
+.form__telephone {
+    position: absolute;
+    top: 65%;
+    left: 15px;
+    transform: translateY(-50%);
+    display: inline-block;
+    fill: $secondaryTextColor;
+    transform: fill;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .form__field:hover & {
+        fill: $accentColor;
+    }
+}
+
+.form__mail {
+    position: absolute;
+    top: 65%;
+    left: 15px;
+    transform: translateY(-50%);
+    display: inline-block;
+    fill: $secondaryTextColor;
+    transform: fill;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    .form__field:hover & {
+        fill: $accentColor;
+    }
+}
+
+.terms {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms__checkbox {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+}
+
+.terms__label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: $primaryTextColor;
+    margin-left: 8px; 
+    display: flex;
+    align-items: center;
+}
+
+.terms__icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    background-image: url(../images/policy.svg);
+    background-size: contain;
+    margin-right: 8px;
+}
+
+.terms__checkbox:checked + .terms__icon {
+    background-color: $accentColor;
+    background-image: url(../images/icon\ check.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.terms__contract {
+    color: $accentColor;
+    margin-left: 6px;
+}
+
+.form-button {
+    background: $accentColor;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    padding: 10px 52px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: $whiteTextColor;
+    transform: background-color;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, &:focus {
+        background-color: #188CE8;
+    }
 }

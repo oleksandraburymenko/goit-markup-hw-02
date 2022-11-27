@@ -834,6 +834,24 @@
 
 .form__textarea {
   margin-bottom: 20px;
+  resize: none;
+  width: 448px;
+  height: 120px;
+  padding: 15px 16px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  -webkit-transform: border;
+          transform: border;
+  -webkit-transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
+.form__field:hover .form__textarea {
+  fill: #2196F3;
 }
 
 .form__name {
@@ -848,6 +866,10 @@
 }
 .form__name:focus {
   outline: unset;
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+}
+.form__field:hover .form__name {
   border: 1px solid #2196F3;
   border-radius: 4px;
 }
@@ -867,6 +889,10 @@
   border: 1px solid #2196F3;
   border-radius: 4px;
 }
+.form__field:hover .form__tel {
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+}
 
 .form__email {
   padding: 12px 12px 12px 40px;
@@ -883,11 +909,158 @@
   border: 1px solid #2196F3;
   border-radius: 4px;
 }
+.form__field:hover .form__email {
+  border: 1px solid #2196F3;
+  border-radius: 4px;
+}
 
 .form-comment:focus {
   outline: unset;
   border: 1px solid #2196F3;
   border-radius: 4px;
+}
+
+.form__label {
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: #757575;
+}
+
+.form__person {
+  position: absolute;
+  top: 65%;
+  left: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: inline-block;
+  fill: #212121;
+  -webkit-transform: fill;
+          transform: fill;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form__field:hover .form__person {
+  fill: #2196F3;
+}
+
+.form__telephone {
+  position: absolute;
+  top: 65%;
+  left: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: inline-block;
+  fill: #212121;
+  -webkit-transform: fill;
+          transform: fill;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form__field:hover .form__telephone {
+  fill: #2196F3;
+}
+
+.form__mail {
+  position: absolute;
+  top: 65%;
+  left: 15px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: inline-block;
+  fill: #212121;
+  -webkit-transform: fill;
+          transform: fill;
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form__field:hover .form__mail {
+  fill: #2196F3;
+}
+
+.terms {
+  margin-bottom: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.terms__checkbox {
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  position: absolute;
+}
+
+.terms__label {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+  margin-left: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.terms__icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  background-image: url(../images/policy.svg);
+  background-size: contain;
+  margin-right: 8px;
+}
+
+.terms__checkbox:checked + .terms__icon {
+  background-color: #2196F3;
+  background-image: url(../images/icon\ check.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.terms__contract {
+  color: #2196F3;
+  margin-left: 6px;
+}
+
+.form-button {
+  background: #2196F3;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 52px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  -webkit-transform: background-color;
+          transform: background-color;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.form-button:hover, .form-button:focus {
+  background-color: #188CE8;
 }
 
 *,
