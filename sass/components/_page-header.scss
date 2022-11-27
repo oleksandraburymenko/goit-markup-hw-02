@@ -44,6 +44,7 @@
 }
 
 .nav__list {
+    @extend %list;
     list-style: none;
     display: flex;
     margin: 0;
