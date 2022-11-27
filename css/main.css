@@ -451,6 +451,23 @@
   fill: currentColor;
 }
 
+.employee__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #212121;
+  margin-bottom: 10px;
+}
+
+.employee__position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  color: #757575;
+}
+
 *,
 *::before,
 *::after {
