@@ -5,6 +5,10 @@
     border: 1px solid $examplesColor;
 }
 
+.examples-section__title {
+    @extend %visually-hidden;
+}
+
 .filter__list {
     @extend %list;
     display: flex;

@@ -60,6 +60,7 @@
 }
 
 .nav__link {
+  text-decoration: none;
   display: block;
   padding: 32px 0;
   color: #212121;
@@ -79,10 +80,12 @@
 .nav__link:hover, .nav__link:focus {
   color: #2196F3;
 }
+
 .nav__link.current {
   position: relative;
   color: #2196F3;
 }
+
 .nav__link.current::after {
   display: block;
   content: "";
@@ -1323,7 +1326,7 @@ section {
   color: inherit;
 }
 
-.benefits__title {
+.benefits__title, .examples-section__title {
   position: absolute;
   white-space: nowrap;
   width: 1px;
