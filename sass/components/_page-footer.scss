@@ -18,6 +18,17 @@
     letter-spacing: 0.03em;
 }
 
+.page-footer__accent {
+    color: $accentColor;
+    text-decoration: none;
+    font-family: $secondaryFont;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
 .address__list {
     @extend %list;
     margin-top: 0;
@@ -48,6 +59,8 @@
 }
 
 .address__email {
+    text-decoration: none;
+    color: inherit;
     margin-right: 0;
     font-family: $mainFont;
     font-style: normal;
@@ -66,6 +79,8 @@
 }
 
 .address__tel {
+    text-decoration: none;
+    color: inherit;
     font-family: $mainFont;
     font-style: normal;
     font-weight: 400;

@@ -543,6 +543,17 @@
   letter-spacing: 0.03em;
 }
 
+.page-footer__accent {
+  color: #2196F3;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
 .address__list {
   margin-top: 0;
   margin-bottom: 0;
@@ -574,6 +585,8 @@
 }
 
 .address__email {
+  text-decoration: none;
+  color: inherit;
   margin-right: 0;
   font-family: Roboto, sans-serif;
   font-style: normal;
@@ -594,6 +607,8 @@
 }
 
 .address__tel {
+  text-decoration: none;
+  color: inherit;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
