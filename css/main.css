@@ -1111,6 +1111,10 @@
   border: 1px solid #EEEEEE;
 }
 
+.filter {
+  margin-bottom: 50px;
+}
+
 .filter__list {
   display: -webkit-box;
   display: -ms-flexbox;

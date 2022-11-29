@@ -9,6 +9,10 @@
     @extend %visually-hidden;
 }
 
+.filter {
+    margin-bottom: 50px;
+}
+
 .filter__list {
     @extend %list;
     display: flex;
