@@ -132,6 +132,29 @@
     height: 44px;
 }
 
+.instagram-link:hover,
+.twitter-link:hover,
+.facebook-link:hover,
+.linkedin-link:hover {
+    background-color: $accentColor;
+    color: $whiteTextColor;
+}
+
+.instagram-link:focus,
+.twitter-link:focus,
+.facebook-link:focus,
+.linkedin-link:focus {
+    background-color: $accentColor;
+    color: $whiteTextColor;
+
+}
+
+.instagram-link,
+.twitter-link,
+.facebook-link {
+    margin-right: 10px;
+}
+
 .instagram-link__icon,
 .twitter-link__icon,
 .facebook-link__icon,
@@ -146,9 +169,6 @@
     padding: 0;
 }
 
-.social-links__item:not(:last-child) {
-    margin-right: 10px;
-}
 
 .subscription {
     margin-left: auto;
