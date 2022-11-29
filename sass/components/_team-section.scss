@@ -1,6 +1,6 @@
 
 .team {
-    background-color: var(--secondary-background-color);
+    background-color: $secondaryBackgroundColor;
     padding: 94px 0;
 }
 
@@ -41,6 +41,9 @@
 }
 
 .employee__list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
     @extend %list;
     display: flex;
     justify-content: center;
@@ -74,7 +77,11 @@
 .employee__icon {
     width: 20px;
     height: 20px;
-    fill: currentColor;
+    fill: #AFB1B8;
+
+    .employee__link:hover &, .employee__link:focus & {
+        fill: $whiteTextColor;
+    }
 }
 
 .employee__name {

@@ -363,7 +363,7 @@
 }
 
 .team {
-  background-color: var(--secondary-background-color);
+  background-color: #F5F4FA;
   padding: 94px 0;
 }
 
@@ -407,6 +407,9 @@
 }
 
 .employee__list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -451,7 +454,10 @@
 .employee__icon {
   width: 20px;
   height: 20px;
-  fill: currentColor;
+  fill: #AFB1B8;
+}
+.employee__link:hover .employee__icon, .employee__link:focus .employee__icon {
+  fill: #FFFFFF;
 }
 
 .employee__name {
