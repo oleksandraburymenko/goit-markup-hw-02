@@ -1163,7 +1163,8 @@
   position: relative;
   overflow: hidden;
 }
-.project__view .project__view::before {
+
+.project__view::before {
   display: inline-block;
   position: absolute;
   content: "";
@@ -1178,7 +1179,8 @@
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1), opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project__view .project:hover .project__view::before {
+
+.project:hover .project__view::before {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 1;
@@ -1201,7 +1203,8 @@
   -webkit-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.project__text .project:hover .project__text, .project__text .project:focus .project__text {
+
+.project:hover .project__text, .project:focus .project__text {
   opacity: 1;
 }
 
