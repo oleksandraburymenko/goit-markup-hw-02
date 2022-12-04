@@ -19,6 +19,7 @@
     @media screen and (min-width: 768px) {
         display: flex;
         flex-wrap: wrap;
+        margin: -15px;
     }
 
     @media screen and (min-width: 1200px) {
@@ -34,7 +35,8 @@
 .benefits-section__item {
 
     @media screen and (min-width: 768px) {
-        flex-basis: 50%;
+        width: calc(100% - 2 * 30px) / 2;
+        margin: 15px;
     }
 
     @media screen and (min-width: 1200px) {
