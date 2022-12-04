@@ -15,27 +15,46 @@
 
 .benefits-section__list {
     @extend %list;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 0;
-    margin: 0;
+
+    @media screen and (min-width:768px) {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    @media screen and (min-width:1200px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        padding: 0;
+        margin: 0;
+    }
+    
 }
 
 .benefits-section__item {
-    width: 270px;
 
-    &::before {
-        display: block;
-        content: "";
-        height: 120px;
-        margin-bottom: 30px;
-        background-color: $secondaryBackgroundColor;
-        background-size: 70px 70px;
-        background-repeat: no-repeat;
-        background-position: center;
-        border-radius: 4px; 
+    @media screen and (min-width:768px) {
+        flex-basis: 50%;
     }
+
+    @media screen and (min-width:1200px) {
+        width: 270px;
+
+        &::before {
+            display: block;
+            content: "";
+            height: 120px;
+            margin-bottom: 30px;
+            background-color: $secondaryBackgroundColor;
+            background-size: 70px 70px;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 4px; 
+        }
+    }
+    
+
+    
 }
 
 .benefits-section__antenna::before {
