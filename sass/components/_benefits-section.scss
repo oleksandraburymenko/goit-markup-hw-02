@@ -2,7 +2,6 @@
 .benefits {
     padding-top: 94px;
     padding-bottom: 94px;
-    display: none;
 }
 
 .benefits__title {
@@ -34,13 +33,14 @@
 }
 
 .benefits-section__item {
+    width: 100%;
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: $tablet) {
         width: calc(100% - 2 * 30px) / 2;
         margin: 15px;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
         width: 270px;
         
 
