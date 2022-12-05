@@ -4,6 +4,8 @@
     margin: 0;
     border: none;
     background-color: transparent;
+
+    
 }
 
 .menu-button .icon-cross {
@@ -31,6 +33,10 @@
     
     &.is-open {
         display: block;
+    }
+
+    @media screen and (max-width: 767px) {
+        display: none;
     }
 }
 
