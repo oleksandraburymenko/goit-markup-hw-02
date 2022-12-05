@@ -23,7 +23,6 @@
 
     @media screen and (min-width: 768px) {
         display: flex;
-        flex-wrap: wrap;
         margin: -15px;
     }
 
@@ -32,7 +31,7 @@
         flex-wrap: wrap;
         gap: 30px;
         padding: 0;
-        margin: 0;
+        margin: -15px;
     }
     
 }
@@ -70,8 +69,6 @@
     }
     
 }
-
-
 
 .benefits-section__antenna::before {
     background-image: url(../images/antenna\ 1.svg);
