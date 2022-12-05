@@ -50,14 +50,16 @@
     letter-spacing: 0.03em;
 }
 
-// .nav__list {
-//     @extend %list;
-//     list-style: none;
-//     display: flex;
-//     margin: 0;
-//     padding: 0;
-// }
+.nav__list {
+    @extend %list;
+    
+    @media screen and (min-width:$tablet) {
+        display: flex;
 
+    }
+    
+    
+}
 // .nav__item:not(:last-child) {
 //     margin-right: 50px;
 // }
