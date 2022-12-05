@@ -1,4 +1,4 @@
-.menu-button {
+.menu-toggle {
     display: inline-flex;
     padding: 0;
     margin: 0;
@@ -10,20 +10,20 @@
     }
 }
 
-.menu-button .icon-cross {
+.menu-toggle .icon-cross {
     display: none;
 
 }
 
-.menu-button.is-open .icon-cross {
+.menu-toggle.js-open-menu .icon-cross {
     display: block;
 }
 
-.menu-button.is-open .icon-menu {
+.menu-toggle.js-open-menu .icon-menu {
     display: none;
 }
 
-.menu-container {
+.mobile-menu {
     display: none;
     padding: 20px;
     text-align: center;

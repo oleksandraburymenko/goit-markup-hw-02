@@ -17,13 +17,17 @@
     <header class="page-header">
         <div class="container page-header__container nav-main">
             <a href="./index.html" class="logo page-header__logo"><span class="logo-accent page-header__accent">Web</span>Studio</a>
-            <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+            <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            >
                 <svg width="40px" height="40px" aria-label="Перемикач мобільного меню">
-                    <use class="icon-cross" href="./images/close_40px.svg"></use>
-                    <use class="icon-menu" href="./images/menu_40px.svg"></use>
+                    <use class="icon-cross js-close-menu" href="./images/close_40px.svg"></use>
+                    <use class="icon-menu js-open-menu" href="./images/menu_40px.svg"></use>
                 </svg>
             </button>
-            <div class="menu-container is-open" id="menu-container" data-menu>
+            <div class="mobile-menu is-open" id="mobile-menu">
                 <nav class="nav">
                     <ul class="nav-list nav__list">
                         <li class="nav__item"><a class="nav__link current" href="./index.html">Студія</a></li>
@@ -46,6 +50,13 @@
             
 
         </div>
+        <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous"
+        ></script>
+        <script defer src="js/mobile-menu.js"></script>
         
     </header>
     <!-- <main>
@@ -441,8 +452,15 @@
             </form>
         </div>
     </div>
+    <div class="menu-container js-menu-container" id="mobile-menu"></div>
     <script src="./js/modal.js"></script>
-    <script src="./js/menu.js"></script>
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="js/mobile-menu.js"></script>
     
 </body>
 </html>
