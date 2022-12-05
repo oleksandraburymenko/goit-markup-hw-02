@@ -20,16 +20,15 @@
 
 .benefits-section__list {
     @extend %list;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
 
     @media screen and (min-width: 768px) {
-        display: flex;
         margin: -15px;
     }
 
     @media screen and (min-width: 1200px) {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 30px;
         padding: 0;
         margin: -15px;
     }
@@ -40,13 +39,13 @@
     width: 100%;
 
     @media screen and (min-width: $tablet) {
-        width: calc(100% - 2 * 30px) / 2;
+        flex-basis: calc((100% - 30px) / 2);
         margin: 15px;
 
     }
 
     @media screen and (min-width: $desktop) {
-        width: calc(100% - 4 * 30px) / 4;
+        flex-basis: calc((100% - 90px) / 4);
         
     }
 
