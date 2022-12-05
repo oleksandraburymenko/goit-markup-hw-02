@@ -190,6 +190,86 @@ section {
   bottom: 0;
 }
 
+.contacts {
+  margin-left: auto;
+}
+
+.contacts__email {
+  margin-right: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts__email:hover, .contacts__email:focus {
+  color: #2196F3;
+}
+
+.contacts__tel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+  text-decoration: none;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.contacts__tel:hover, .contacts__tel:focus {
+  color: #2196F3;
+}
+
+.contacts__envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+@media screen and (max-width: 768px) {
+  .contacts__envelope {
+    display: none;
+  }
+}
+
+.contacts__smartphone {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+@media screen and (max-width: 768px) {
+  .contacts__smartphone {
+    display: none;
+  }
+}
+
 .menu {
   display: none;
 }
@@ -230,19 +310,23 @@ section {
   color: #2196F3;
 }
 
-@media screen and (min-width: 768px) {
+.nav__link.current::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #2196F3;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+@media screen and (max-width: 767px) {
   .nav__link.current::after {
-    display: block;
-    content: "";
-    width: 100%;
-    height: 4px;
-    background-color: #2196F3;
-    border-radius: 2px;
-    position: absolute;
-    left: 0;
-    bottom: 0;
+    display: none;
   }
 }
+
 .menu__link {
   padding: 10px;
   color: inherit;
@@ -332,10 +416,9 @@ section {
   margin-bottom: auto;
 }
 
-.nav__link {
+.mobile-menu .nav__link {
   display: block;
   height: 48px;
-  padding: 10px;
   text-decoration: none;
   font-weight: 500;
   font-size: 40px;
@@ -343,10 +426,10 @@ section {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.nav__link:not(:last-child) {
+.mobile-menu .nav__link:not(:last-child) {
   margin-bottom: 32px;
 }
-.nav__link.current {
+.mobile-menu .nav__link.current {
   color: #2196F3;
 }
 

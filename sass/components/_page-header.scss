@@ -103,60 +103,66 @@
 }
 
 
-// .contacts {
-//     display: flex;
-//     align-items: center;
-//     margin-left: auto;
-// }
+.contacts {
+    margin-left: auto;
+}
 
-// .contacts__email {
-//     margin-right: 50px;
-//     display: flex;
-//     align-items: center;
-//     font-weight: 500;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.02em;
-//     color: $primaryTextColor;
-//     text-decoration: none;
-//     transition-property: color;
-//     transition-duration: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.contacts__email {
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $primaryTextColor;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-//     &:hover, &:focus {
-//         color: $accentColor;
-//     }
-// }
+    &:hover, &:focus {
+        color: $accentColor;
+    }
+}
 
-// .contacts__tel {
-//     display: flex;
-//     align-items: center;
-//     font-weight: 500;
-//     font-size: 14px;
-//     line-height: 1.14;
-//     letter-spacing: 0.02em;
-//     color: $primaryTextColor;
-//     text-decoration: none;
-//     transition-property: color;
-//     transition-duration: 250ms;
-//     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.contacts__tel {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: $primaryTextColor;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-//     &:hover, &:focus {
-//         color: $accentColor;
-//     }
-// }
+    &:hover, &:focus {
+        color: $accentColor;
+    }
+}
 
-// .contacts__envelope {
-//     width: 16px;
-//     height: 12px;
-//     margin-right: 10px;
-//     fill: currentColor;
-// }
+.contacts__envelope {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: currentColor;
 
-// .contacts__smartphone {
-//     align-items: flex-end;
-//     width: 10px;
-//     height: 16px;
-//     margin-right: 10px;
-//     fill: currentColor;
-// }
+    @media screen and (max-width: $tablet) {
+        display: none;
+    }
+}
+
+.contacts__smartphone {
+    align-items: flex-end;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    fill: currentColor;
+
+    @media screen and (max-width: $tablet) {
+        display: none;
+    }
+}
