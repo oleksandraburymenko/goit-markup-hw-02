@@ -124,6 +124,10 @@
     &:hover, &:focus {
         color: $accentColor;
     }
+
+    @media screen and (max-width: $tablet) {
+        font-size: 24px;
+    }
 }
 
 .contacts__tel {
@@ -141,6 +145,12 @@
 
     &:hover, &:focus {
         color: $accentColor;
+    }
+
+    @media screen and (max-width: $tablet) {
+        font-size: 34px;
+        color: $accentColor;
+        margin-bottom: 32px;
     }
 }
 
