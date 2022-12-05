@@ -23,8 +23,8 @@
             aria-controls="mobile-menu"
             >
                 <svg width="40px" height="40px" aria-label="Перемикач мобільного меню">
-                    <use class="icon-cross js-close-menu" href="./images/close_40px.svg"></use>
-                    <use class="icon-menu js-open-menu" href="./images/menu_40px.svg"></use>
+                    <use class="icon-cross" href="./images/close_40px.svg"></use>
+                    <use class="icon-menu" href="./images/menu_40px.svg"></use>
                 </svg>
             </button>
             <div class="mobile-menu is-open" id="mobile-menu">
@@ -50,13 +50,6 @@
             
 
         </div>
-        <script
-        defer
-        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-        crossorigin="anonymous"
-        ></script>
-        <script defer src="js/mobile-menu.js"></script>
         
     </header>
     <!-- <main>
@@ -452,7 +445,14 @@
             </form>
         </div>
     </div>
-    <div class="menu-container js-menu-container" id="mobile-menu"></div>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg width="40px" height="40px" aria-label="Перемикач мобільного меню">
+                <use class="icon-cross" href="./images/close_40px.svg"></use>
+                <use class="icon-menu" href="./images/menu_40px.svg"></use>
+            </svg>
+        </button>
+    </div>
     <script src="./js/modal.js"></script>
     <script
       defer
