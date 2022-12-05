@@ -20,9 +20,13 @@
 
 .benefits-section__list {
     @extend %list;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
+
+    @media screen and (min-width: 480px) {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+
+    }
 
     @media screen and (min-width: 768px) {
         margin: -15px;
@@ -36,7 +40,6 @@
 }
 
 .benefits-section__item {
-    width: 100%;
 
     @media screen and (min-width: $tablet) {
         flex-basis: calc((100% - 30px) / 2);
