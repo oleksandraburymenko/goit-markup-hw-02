@@ -60,9 +60,9 @@
     
     
 }
-// .nav__item:not(:last-child) {
-//     margin-right: 50px;
-// }
+.nav__item:not(:last-child) {
+    margin-right: 50px;
+}
 
 .nav__link {
     text-decoration: none;
@@ -105,6 +105,13 @@
 
 .contacts {
     margin-left: auto;
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+        gap: 10px;
+    }
 }
 
 .contacts__email {

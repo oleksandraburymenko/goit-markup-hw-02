@@ -26,9 +26,11 @@
         &:hover, &:focus {
             color: $accentColor;
         }
-    }
-    
 
+        &:not(:last-child) {
+            margin-right: 50px;
+        }
+    }
 }
 
 

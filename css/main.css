@@ -151,6 +151,10 @@ section {
   }
 }
 
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav__link {
   text-decoration: none;
   display: block;
@@ -192,6 +196,21 @@ section {
 
 .contacts {
   margin-left: auto;
+}
+@media screen and (min-width: 768px) {
+  .contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+  }
 }
 
 .contacts__email {
@@ -314,6 +333,9 @@ section {
 @media screen and (min-width: 768px) {
   .menu .nav__link:hover, .menu .nav__link:focus {
     color: #2196F3;
+  }
+  .menu .nav__link:not(:last-child) {
+    margin-right: 50px;
   }
 }
 
