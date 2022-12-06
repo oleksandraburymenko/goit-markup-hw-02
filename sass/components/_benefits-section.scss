@@ -61,10 +61,28 @@
 		}
     }
 
+    &:nth-child(2n) {
+        @media screen and (min-width:$tablet) {
+            margin-right: 0;
+        }
+    }
+
+    &:nth-last-child(-n+2) {
+        @media screen and (min-width: $tablet) {
+            margin-bottom: 0;
+
+        }
+    }
+
     &:not(:last-child) {
         @media screen and (min-width: $desktop) {
             margin-right: 30px;
         }
+    }
+
+    @media screen and (min-width:$tablet) {
+        margin-right: 30px;
+        margin-bottom: 30px;
     }
 
 
