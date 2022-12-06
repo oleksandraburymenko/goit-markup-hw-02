@@ -16,6 +16,10 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+
+    @media screen and (max-width: 1199px) {
+        font-size: 24px;
+    }
 }
 
 .page-footer__accent {
@@ -27,6 +31,10 @@
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+
+    @media screen and (max-width: 1199px) {
+        font-size: 24px;
+    }
 }
 
 .address__list {
@@ -98,12 +106,31 @@
 }
 
 .page-footer__container {
-    display: flex;
-    align-items: baseline;
+
+    @media screen and (min-width: $tablet) {
+        display: flex;
+        align-items: baseline;
+    }
+    
+}
+
+.page-footer__item {
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+
+        &:not(:last-child) {
+            margin-bottom: 60px;
+        }
+    }
 }
 
 .social-links {
-    margin-left: 70px;
+
+    @media screen and (min-width: $desktop) {
+        margin-left: 70px;
+    }
+    
 }
 
 .social-links__text {
@@ -167,6 +194,13 @@
     display: flex;
     margin: 0;
     padding: 0;
+
+    @media screen and (max-width: 767px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
 }
 
 
@@ -177,6 +211,10 @@
 .subscription__data {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
+    }
 }
 
 .subscription__text {
@@ -199,6 +237,10 @@
     border-radius: 4px;
     background-color: $footerBackgroundColor;
     color: rgba(255, 255, 255, 0.6);
+
+    @media screen and (max-width: 1199px) {
+        margin-bottom: 20px;
+    }
 }
 
 .subscription__button {

@@ -136,6 +136,12 @@ section {
     font-size: 24px;
   }
 }
+@media screen and (max-width: 767px) {
+  .page-header__logo {
+    display: block;
+    margin-bottom: 20px;
+  }
+}
 
 .page-header__accent {
   color: #2196F3;
@@ -1023,6 +1029,11 @@ section {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
+@media screen and (max-width: 1199px) {
+  .page-footer__logo {
+    font-size: 24px;
+  }
+}
 
 .page-footer__accent {
   color: #2196F3;
@@ -1033,6 +1044,11 @@ section {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+}
+@media screen and (max-width: 1199px) {
+  .page-footer__accent {
+    font-size: 24px;
+  }
 }
 
 .address__list {
@@ -1108,17 +1124,30 @@ section {
   color: #2196F3;
 }
 
-.page-footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+@media screen and (min-width: 768px) {
+  .page-footer__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }
 
-.social-links {
-  margin-left: 70px;
+@media screen and (max-width: 767px) {
+  .page-footer__item {
+    text-align: center;
+  }
+  .page-footer__item:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .social-links {
+    margin-left: 70px;
+  }
 }
 
 .social-links__text {
@@ -1189,6 +1218,20 @@ section {
   margin: 0;
   padding: 0;
 }
+@media screen and (max-width: 767px) {
+  .social-links__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10px;
+  }
+}
 
 .subscription {
   margin-left: auto;
@@ -1201,6 +1244,14 @@ section {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 767px) {
+  .subscription__data {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .subscription__text {
@@ -1224,6 +1275,11 @@ section {
   border-radius: 4px;
   background-color: #2F303A;
   color: rgba(255, 255, 255, 0.6);
+}
+@media screen and (max-width: 1199px) {
+  .subscription__input {
+    margin-bottom: 20px;
+  }
 }
 
 .subscription__button {
