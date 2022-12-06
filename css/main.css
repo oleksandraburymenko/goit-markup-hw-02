@@ -103,7 +103,7 @@ section {
   background-color: #FFFFFF;
   padding-bottom: 0;
   padding-top: 0;
-  z-index: 999;
+  z-index: 998;
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -621,8 +621,8 @@ section {
 }
 @media screen and (min-width: 1140px) {
   .benefits-section__item {
-    -ms-flex-preferred-size: calc((100% - 90px) / 3);
-        flex-basis: calc((100% - 90px) / 3);
+    -ms-flex-preferred-size: calc((100% - 120px) / 4);
+        flex-basis: calc((100% - 120px) / 4);
   }
 }
 @media screen and (max-width: 767px) {
