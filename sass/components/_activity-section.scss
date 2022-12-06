@@ -1,7 +1,11 @@
 
 .activity {
     padding-top: 0;
-    display: none;
+
+    @media screen and (max-width: 1199px;) {
+        display: none;
+
+    }
 }
 
 .activity__section {
