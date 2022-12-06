@@ -553,6 +553,12 @@ section {
   margin: 0 auto 30px auto;
   width: 696px;
 }
+@media screen and (max-width: 1199px) {
+  .hero__title {
+    width: 360px;
+    font-size: 26px;
+  }
+}
 
 .hero__button {
   margin: 0 auto;
@@ -580,6 +586,11 @@ section {
 }
 .hero__button:active {
   background-color: #188CE8;
+}
+@media screen and (max-width: 1199px) {
+  .hero__button {
+    min-width: 200px;
+  }
 }
 
 .benefits {
@@ -628,6 +639,11 @@ section {
 @media screen and (max-width: 767px) {
   .benefits-section__item:not(:last-child) {
     margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits-section__item:not(:last-child) {
+    margin-right: 30px;
   }
 }
 .benefits-section__item::before {
@@ -743,6 +759,12 @@ section {
 .team {
   background-color: #F5F4FA;
   padding: 94px 0;
+}
+@media screen and (max-width: 1199px) {
+  .team {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 
 .team__section {

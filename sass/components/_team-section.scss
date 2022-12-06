@@ -2,6 +2,11 @@
 .team {
     background-color: $secondaryBackgroundColor;
     padding: 94px 0;
+
+    @media screen and (max-width: 1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 .team__section {
