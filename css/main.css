@@ -343,7 +343,6 @@ section {
 
 .menu .nav__link {
   text-decoration: none;
-  display: block;
   padding: 32px 0;
   color: #212121;
   font-family: Roboto, sans-serif;
@@ -510,6 +509,20 @@ section {
   gap: 20px;
 }
 
+.icon-cross, .icon-menu {
+  fill: #000000;
+  -webkit-transition: fill cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-cross:hover, .icon-cross:focus {
+  fill: #2196F3;
+}
+
+.icon-menu:hover, .icon-menu:focus {
+  fill: #2196F3;
+}
+
 .hero__section {
   padding-left: 15px;
   padding-right: 15px;
@@ -527,7 +540,6 @@ section {
   background-position: center;
   background-size: cover;
   margin: 0 auto;
-  display: none;
 }
 
 .hero__title {
@@ -593,19 +605,8 @@ section {
     display: flex;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin: -15px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .benefits-section__list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    gap: 30px;
-    padding: 0;
-    margin: 0;
+    margin-top: -30px;
+    margin-bottom: -30px;
   }
 }
 
@@ -614,13 +615,19 @@ section {
 }
 @media screen and (min-width: 768px) {
   .benefits-section__item {
-    width: calc(100% - 60px)/2;
-    margin: 15px;
+    -ms-flex-preferred-size: calc((100% - 60px) / 2);
+        flex-basis: calc((100% - 60px) / 2);
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1140px) {
   .benefits-section__item {
-    width: calc(100% - 120px)/4;
+    -ms-flex-preferred-size: calc((100% - 90px) / 3);
+        flex-basis: calc((100% - 90px) / 3);
+  }
+}
+@media screen and (max-width: 767px) {
+  .benefits-section__item:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 .benefits-section__item::before {
@@ -633,11 +640,6 @@ section {
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 4px;
-}
-@media screen and (max-width: 767px) {
-  .benefits-section__item:not(:last-child) {
-    margin-bottom: 30px;
-  }
 }
 
 .benefits-section__antenna::before {
@@ -674,7 +676,11 @@ section {
 
 .activity {
   padding-top: 0;
-  display: none;
+}
+@media screen and (max-width: 1199px) {
+  .activity {
+    display: none;
+  }
 }
 
 .activity__section {
@@ -737,7 +743,6 @@ section {
 .team {
   background-color: #F5F4FA;
   padding: 94px 0;
-  display: none;
 }
 
 .team__section {
