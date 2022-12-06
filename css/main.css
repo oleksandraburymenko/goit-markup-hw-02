@@ -696,6 +696,11 @@ section {
   margin-top: 0;
   margin-bottom: 10px;
 }
+@media screen and (max-width: 767px) {
+  .benefits-section__title {
+    text-align: center;
+  }
+}
 
 .benefits-section__text {
   font-weight: 400;

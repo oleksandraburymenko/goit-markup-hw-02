@@ -89,6 +89,10 @@
     color: $secondaryTextColor;
     margin-top: 0;
     margin-bottom: 10px;
+
+    @media screen and (max-width: 767px) {
+        text-align: center;
+    }
 }
 
 .benefits-section__text {
