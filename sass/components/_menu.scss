@@ -166,3 +166,18 @@
 
 }
 
+
+.icon-cross, .icon-menu {
+    fill: $titleTextColor;
+    transition: fill cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.icon-cross:hover, .icon-cross:focus {
+    fill: $accentColor;
+    
+}
+
+.icon-menu:hover, .icon-menu:focus {
+    fill: $accentColor;
+}

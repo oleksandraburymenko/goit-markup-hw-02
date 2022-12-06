@@ -19,7 +19,6 @@
     background-position: center;
     background-size: cover;
     margin: 0 auto;
-    display: none;
 }
 
 .hero__title {
@@ -58,3 +57,20 @@
         background-color: $secondaryAccentColor;
     }
 }
+
+// <img
+//     srcset="
+//     ./images\team\1_270.jpg 270w,
+//     ./images\team\1_354.jpg 354w,
+//     ./images\team\1_450.jpg 450w,
+//     ./images\team\1_540.jpg 540w,
+//     ./images\team\1_708.jpg 708w,
+//     ./images\team\1_900.jpg 900w"
+//     sizes="(min-width: 1200px) 270px, 
+//            (min-width: 768px) 354px, 
+//            (min-width: 480px) 450px, 100vw"
+//     src="./images/image/team-1.jpg" 
+//     alt="Портрет Ігора Дем'яненка"
+//     width="450"
+//     height="460"
+// > 
