@@ -1313,6 +1313,8 @@ section {
 @media screen and (max-width: 1199px) {
   .subscription__input {
     margin-bottom: 20px;
+    margin-right: 0;
+    width: 450px;
   }
 }
 
