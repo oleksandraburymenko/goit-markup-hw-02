@@ -596,12 +596,16 @@ section {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   margin: 0 auto 30px auto;
-  width: 696px;
 }
 @media screen and (max-width: 1199px) {
   .hero__title {
-    width: 360px;
+    max-width: 360px;
     font-size: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__title {
+    width: 696px;
   }
 }
 
@@ -993,10 +997,14 @@ section {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .clients__item {
   height: 92px;
+  width: 210px;
 }
 @media screen and (min-width: 480px) {
   .clients__item {
@@ -1347,7 +1355,8 @@ section {
   .subscription__input {
     margin-bottom: 20px;
     margin-right: 0;
-    width: 450px;
+    width: 100%;
+    max-width: 450px;
   }
 }
 

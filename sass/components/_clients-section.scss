@@ -28,11 +28,13 @@
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
+    justify-content: center;
 
 }
 
 .clients__item {
     height: 92px;
+    width: 210px;
 
     @media screen and (min-width: $mobile) {
         width: 210px;
