@@ -849,9 +849,13 @@ section {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  gap: 30px;
   margin: 0;
   padding: 0;
+}
+@media screen and (min-width: 768px) {
+  .team__list {
+    gap: 30px;
+  }
 }
 
 .team__item {

@@ -34,9 +34,13 @@
     @extend %list;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    
     margin: 0;
     padding: 0;
+
+    @media screen and (min-width: $tablet) {
+        gap: 30px;
+    }
 }
 
 .team__item {
