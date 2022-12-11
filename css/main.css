@@ -1763,6 +1763,12 @@ section {
   padding-bottom: 94px;
   border: 1px solid #EEEEEE;
 }
+@media screen and (max-width: 1199px) {
+  .examples {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
 
 .filter {
   margin-bottom: 50px;

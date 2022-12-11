@@ -3,6 +3,11 @@
     padding-top: 94px;
     padding-bottom: 94px;
     border: 1px solid $examplesColor;
+
+    @media screen and (max-width: 1199px) {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
 }
 
 .examples-section__title {
