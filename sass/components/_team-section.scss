@@ -80,9 +80,6 @@
     padding: 0;
 }
 
-.employee__item:not(:last-child) {
-    margin-right: 10px;
-}
 
 .employee__link {
     display:flex;
@@ -92,9 +89,7 @@
     border-radius: 50%;
     width: 44px;
     height: 44px;
-    transition-property: color, background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     &:hover, &:focus {
         background-color: $accentColor;
